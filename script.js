@@ -32,17 +32,8 @@ function createNewTodo() {
 	saveToLocalStorage();
 }
 
-/* <div class="item">
-	<input type="checkbox" />
-	<input 
-		type="text" 
-		value="Todo content goes here" 
-		disabled />
-	<div class="actions">
-		<button class="material-icons">edit</button>
-		<button class="material-icons remove-btn">remove_circle</button>
-	</div>
-</div> */
+
+
 function createTodoElement(item) {
 	const itemEl = document.createElement("div");
 	itemEl.classList.add("item");
